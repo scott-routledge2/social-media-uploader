@@ -35,5 +35,6 @@ jobs:
           UPLOAD_POST_USER_ID: ${{ secrets.UPLOAD_POST_USER_ID }}
           IMG_DRIVE: ${{ secrets.IMG_DRIVE }}
           AUDIO_DRIVE: ${{ secrets.AUDIO_DRIVE }}
+          SHORTS_DESCRIPTION: ${{ vars.SHORTS_DESCRIPTION }}
         run: |
           python pipeline_upload.py

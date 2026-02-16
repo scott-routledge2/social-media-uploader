@@ -23,7 +23,7 @@ TMP_CROPPED = "/tmp/shorts_ready.jpg"
 TMP_VIDEO = "/tmp/shorts_video.mp4"
 TMP_AUDIO = "/tmp/audio_clip"
 
-TITLE = "Song Name: Kudu - TUBES"
+TITLE = os.getenv("SHORTS_DESCRIPTION")
 UPLOAD_POST_API_KEY = os.getenv("UPLOAD_POST_API_KEY")
 USER_ID = os.getenv("UPLOAD_POST_USER_ID")
 IMG_FOLDER_ID = os.getenv("IMG_DRIVE")
